@@ -1,0 +1,77 @@
+body {
+    align-items: center;
+    background-color: #91b360;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    grid-template-columns: 200px;
+  }
+  
+
+    body {
+      background-image: url("https://www.shutterstock.com/shutterstock/videos/1057790755/thumb/1.jpg?ip=x480");
+      background-color: #cccccc;
+     }
+  
+  .element {
+    align-items: center;
+    background-color: #3b8455;
+    border-radius: 10px;
+    height: 80px;
+    justify-content: center;
+
+    width: 80px;
+  }
+  
+  .row{
+    margin: 8px 0;
+  }
+  .row input{
+    width: 330px;
+    font-size: 50px;
+    align-items: center;
+    background-color: #973c51;
+    box-shadow: 
+      12px 12px 16px 0 rgba(0, 0, 0, 0.893),
+      -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    justify-content: center;
+    margin-right: 4rem;
+    
+  }
+  
+  .button{
+    box-shadow: 
+      12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+      -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+      border: none;
+      outline: none;
+
+  }
+
+  .elementV {
+    align-items: center;
+    background-color: #e651b7;
+    border-radius: 10px;
+    height: 50px;
+    justify-content: center;
+    width: 165px;
+  }
+  .buttonV{
+    box-shadow: 
+      12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+      -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+      border: none;
+      outline: none;
+
+  }
+  @media (min-width: 600px) {
+    body {
+      grid-template-columns: 200px 200px;
+    }
+  }
+
+
+
+
+  
